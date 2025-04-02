@@ -3,7 +3,7 @@ function firstWord(s) {
 	let news ="";
 	
 	for(let el of s ){
-	if(el==" "){
+	if(el===" "){
 		break;
 	}else{
 		news += el;
@@ -13,7 +13,7 @@ function firstWord(s) {
 	return news;
 }
 
-// Do not change the code belo
+// Do not change the code below 
 
 const s = prompt("Enter String:"); 
 alert(firstWord(s));
